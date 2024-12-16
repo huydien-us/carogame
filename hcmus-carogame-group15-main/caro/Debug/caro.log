@@ -1,0 +1,13 @@
+﻿  Control.cpp
+D:\Program Files\Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Draw.cpp
+E:\Tài liệu\CSLT\Bài tập cslt\baitap\hcmus-carogame-group15-main\Draw.cpp(45,11): warning C4309: 'initializing': truncation of constant value
+E:\Tài liệu\CSLT\Bài tập cslt\baitap\hcmus-carogame-group15-main\Draw.cpp(45,20): warning C4309: 'initializing': truncation of constant value
+E:\Tài liệu\CSLT\Bài tập cslt\baitap\hcmus-carogame-group15-main\Draw.cpp(576,20): warning C4018: '<': signed/unsigned mismatch
+  FileHandle.cpp
+  Main.cpp
+D:\Program Files\Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Menu.cpp
+D:\Program Files\Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Generating Code...
+  caro.vcxproj -> E:\Tài liệu\CSLT\Bài tập cslt\baitap\Debug\caro.exe
