@@ -1,0 +1,3 @@
+﻿  Control.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  caro.vcxproj -> C:\Users\carot\OneDrive\Documents\GitHub\carogame\hcmus-carogame-group15-main\caro\x64\Debug\caro.exe

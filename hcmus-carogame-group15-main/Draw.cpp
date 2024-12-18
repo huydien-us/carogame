@@ -1327,7 +1327,7 @@ void ingameHelp(int x, int y) {
 	GotoXY(x, y + 2);
 	cout << "Press   to save game.";
 	GotoXY(x + 24, y + 2);
-	cout << "Press   to load game.";
+	cout << "Press   to pause game.";
 	GotoXY(x + 6, y);
 	setColor(LIGHT_GREEN);
 	cout << "W";
@@ -1345,6 +1345,6 @@ void ingameHelp(int x, int y) {
 	cout << "K";
 	GotoXY(x + 30, y + 2);
 	setColor(LIGHT_PURPLE);
-	cout << "S";
+	cout << "P";
 	setColor(BLACK);
 }
