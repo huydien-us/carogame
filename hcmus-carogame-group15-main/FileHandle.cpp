@@ -45,7 +45,7 @@ void LoadGame() {
     }
 
     inFile.close();
-    cout << "Game loaded successfully!" << endl;
+    //cout << "Game loaded successfully!" << endl;
     Sleep(1000);
     DrawBoard();
 }

@@ -11,6 +11,8 @@
 
 void mainScreen();								//Màn hình chính
 void mainMenu();									//Menu
+void subMenu();
+void subScreen();
 void newGameMenu();								//Menu New Game
 void loadScreen();								//Màn hình load file
 void helpScreen();								//Màn hình hướng dẫn

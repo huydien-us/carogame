@@ -50,6 +50,13 @@ void mainScreen()
 
 }
 
+void subScreen()
+{
+	subMenu();
+
+
+}
+
 //hàm lựa chọn
 void changeOption(bool direction, bool flag) //0: lên, 1: xuống
 {
@@ -105,6 +112,15 @@ void mainMenu()
 	changeOption(0, 1);
 }
 
+void subMenu()
+{
+	printBoard(29, 9, 61, 6, 0);
+	printColoredRectangle(30, 10, 60, 5, LIGHT_GREEN);
+	setConsoleColor(BRIGHT_WHITE, BLACK);
+	GotoXY(50, 12);
+	cout << "Press C to continue";
+}
+
 void backMenu()
 {
 	clearConsole();
@@ -153,6 +169,12 @@ void newGameMenu()
 		if (_COMMAND == 'L') {
 			LoadGame();
 		}
+
+		if (_COMMAND == 'P') {
+			PauseGame();
+		}
+
+
 
 		if (_COMMAND == 'A') MoveLeft();
 		else if (_COMMAND == 'W') MoveUp();

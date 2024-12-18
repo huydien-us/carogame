@@ -10,7 +10,6 @@ using namespace std;
 
 int main() {
     setUpConsole();
-    _getch();
     system("color F0");
     printBoard(4, 1, 112, 26, 0);
     mainScreen();

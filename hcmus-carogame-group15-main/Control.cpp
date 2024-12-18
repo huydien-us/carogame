@@ -4,6 +4,7 @@
 #include "Control.h"
 #include "Draw.h"
 #include "Menu.h"
+#include "FileHandle.h"
 using namespace std;
 
 //Khai báo các biến nhóm hàm Model
@@ -33,6 +34,20 @@ void StartGame() {
     _X = _A[0][0].x;
     _Y = _A[0][0].y;
     GotoXY(_X, _Y); // Đưa con trỏ về ô đầu tiên
+}
+
+void PauseGame() {
+    SaveGame();
+    subScreen();
+
+    if (std::ifstream("save.txt").good()) {
+        while (true) {
+            if (toupper(_getch()) == 'C') {
+                LoadGame();
+                break;
+            }
+        }
+    }
 }
 
 //Hàm trả về ký tự X hoặc O

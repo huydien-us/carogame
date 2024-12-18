@@ -5,4 +5,5 @@
 #include "Header.h"
 
 void SaveGame();
+void PauseGame();
 void LoadGame();
